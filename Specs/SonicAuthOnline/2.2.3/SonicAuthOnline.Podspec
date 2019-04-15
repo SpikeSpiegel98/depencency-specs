@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks  = 'SonicAuthOnline.framework'
   s.source                   =  { :http => 'https://repo.copsonic.com/repository/cocoapods-stable/libs/sonicauth/online/2.2.3/10.2/SonicAuthOnline_debug.framework.zip' }
   
-  s.dependency 'SonicAuthCommon', '2.3.0'
+  s.dependency 'SonicAuthCommon', '2.2.3'
 end
